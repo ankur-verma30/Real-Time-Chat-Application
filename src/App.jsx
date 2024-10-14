@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import ChatRoom from "./pages/ChatRoom";
 import { Route, Routes } from "react-router-dom";
 import { PrivateRoutes } from "./routes/PrivateRoutes";
-import { AuthProvider } from "./context/AuthConnect";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
 	return (
